@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div style="width: 80%; margin: auto; ">
+     <header>
+        <h1 style="text-align: center ;">Event Registration Form  </h1>
+    </header>
+    <h3>About This Event</h3>
+    <table>
+        <tr>
+            <th>Event Name</th>
+            <td>Digital Marketing Masterclass</td>
+        </tr> 
+        <tr>
+            <th>Date</th>
+            <td>October 15, 2027</td>
+        </tr> 
+        <tr>
+            <th>Time </th>
+            <td>2:00 PM - 4:00 PM</td>
+        </tr> 
+        <tr>
+            <th>Speaker</th>
+            <td>Karni Singh Shekhawat </td>
+        </tr> 
+    </table>
+    <hr />
+    <h3>Participant Information</h3>
+    <form action="/action.php">
+
+   <div style="display: flex ; gap: 50px; margin-bottom: 20px;;">
+   <div style="flex-direction: column;">
+      <label  for="name">Full Name</label> 
+    <input type="text" id="name"   >
+   </div>
+
+    <label for="dob">Date of Birth</label> 
+    <input type="date" id="dob"  >
+</div>
+
+<div style="display: flex ; gap: 50px; margin-bottom: 20px;;">
+    
+    <label>Gender</label> 
+    <input type="radio" id="male"  name="gender" value="Male"   >
+        <label for="male">Male</label> 
+    <input type="radio" id="female"  name="gender" value="Female"   >
+        <label for="female">Female</label> 
+
+
+    <label for="mob">Phone Number</label> 
+    <input type="text" id="mob"   >
+
+    <label for="email">Email</label> 
+    <input type="text" id="email"    >
+</div>
+
+<div style="display: flex ; gap: 50px; margin-bottom: 20px;;">
+    
+     <label >where did you here about this virtual event</label> 
+ <input type="radio" id="facebook"  name=" " value="facebook"   >
+        <label for="facebook">facebook</label> 
+ <input type="radio" id="youtube"  name=" " value="youtube"   >
+        <label for="youtube">Youtube</label> 
+ <input type="radio" id="instagram"  name=" " value="instagram"   >
+        <label for="instagram">Instagram</label> 
+ <input type="radio" id="twitter"  name=" " value="twitter"   >
+        <label for="twitter">Twitter</label> 
+ <input type="radio" id="other"  name=" " value="other"   >
+        <label for="other">Other: <input type="text"></label>
+
+   </div>
+   
+    <hr />
+    <h3>Payment Information</h3>
+
+<div style="display: flex ; gap: 50px; margin-bottom: 20px;;">
+
+     <label for="tic">Number of Tickets</label>
+    <input type="text">
+    <label for="">Payment Method</label>
+     
+ <input type="radio" id="credit"  name=" " value="credit"   >
+  <label for="credit">Credit Card</label> 
+ <input type="radio" id="debit"  name=" " value="debit"   >
+  <label for="debit">Debit Card</label> 
+ <input type="radio" id="cash"  name=" " value="cash"   >
+  <label for="cash">Cash </label> 
+ <input type="radio" id="check"  name=" " value="check"   >
+  <label for="check">check</label> 
+
+   </div>
+
+<div style="display: flex ; gap: 50px; margin-bottom: 20px;;">
+     <p>I understand that participation in this event
+    may involve some degree of risk. I release 
+  Wbinarpross LLC from any liability for injury,
+   los, or damage to personal property.</p>
+   <input type="radio" name="" id="x">
+   <label for="x">Yes, I understand</label>
+   <label for="sign">Signature</label>
+   <input type="text">
+   <label for="date-sign">Date Signed</label>
+   <input type="date" id="date-sign">
+
+   </div>
+    </form>
+   <hr>
+   <footer>
+    <pre>
+        <h2>Webinar
+pros LLC
+        </h2>
+    </pre>
+     
+   </footer>
+   </div>
+</body >
+</html>
